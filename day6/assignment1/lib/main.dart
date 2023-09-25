@@ -134,7 +134,7 @@ class MyApp extends StatelessWidget {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: Colors.amber),
-                child: Text(mathData[index].toString()),
+                child: Center(child: Text(mathData[index].toString())),
               );
             })),
       ),
