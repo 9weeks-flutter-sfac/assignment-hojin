@@ -97,7 +97,7 @@ class MainPage extends StatelessWidget {
                           );
                         },
                         trailing: CircleAvatar(
-                          backgroundColor: Colors.blueAccent.shade100,
+                          backgroundColor: Colors.transparent,
                           backgroundImage: AssetImage('assets/images/python.png'),
                         ),
                       ),
